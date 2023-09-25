@@ -38,7 +38,7 @@ public:
 		do {
 			createContact();
 			f1.write(reinterpret_cast<char*>(this),sizeof(*this));
-			cout<<"Do you have next data?(yes/no)";
+			cout<<"Do you have next data?(y/n)";
 			cin>>ch;
 		}while(ch=='y');
 
